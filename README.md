@@ -43,21 +43,19 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 - [Figma](https://www.figma.com/)
 
 ### Key Features <a name="key-features"></a>
-
+- Rendering post via javascript
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link](https://fmanimashaun.github.io/unit-converter/)
+> [Live Demo Link](https://fmanimashaun.github.io/Instagram-clone/)
 
 ### Desktop Version <a name="desktop-version"></a>
 <p align="center">
-  <img width="500" src="#">
-  <img width="500" src="#">
+  <img width="500" src="screenshots/desktop.png">
 </P>
 
 ### Mobile Version <a name="mobile-version"></a>
 <p align="center">
-  <img width="300" src="#">
-  <img width="300" src="#">
+  <img width="300" src="screenshots/mobile.png">
 </P>
 
 ## 💻 Getting Started <a name="getting-started"></a>
