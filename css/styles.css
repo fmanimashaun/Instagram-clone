@@ -109,7 +109,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: #fff;
 }
 

@@ -1,3 +1,4 @@
+import postsUI from "./modules/posts.js";
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -28,3 +29,4 @@ const posts = [
     }
 ]
 
+postsUI(posts);
