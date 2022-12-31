@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oldagram</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <header class="header">
+            <img class='logo' src='img/logo.png' alt='page logo'>
+            <img src="img/user-avatar.png" alt="profile image">
+        </header>
+
+        <main class="main">
+            <div class="posts">
+                <div class='post'>
+                    <div class='post-header'>
+                        <img class="post-header__img" src="img/avatar-courbet.jpg" alt="profile image">
+                        <div class="post-user">
+                            <h2 class="post-user__name">Vincent van Gogh</h2>
+                            <p class="post-user__location">Zudert, Netherlands</p>
+                        </div>
+                    </div>
+                    <figure class='post-body'>
+                        <img class="post-body__img" src="img/post-courbet.jpg" alt="courbet portrait">
+                        <figcaption class="post-body__caption">
+                            <div class="post-body__interact">
+                                <img class="post-body__interact--heart" src="img/icon-heart.png" alt="heart icon">
+                                <img class="post-body__interact--comment" src="img/icon-comment.png" alt="comment icon">
+                                <img class="post-body__interact--share" src="img/icon-dm.png" alt="share icon">
+                            </div>
+                            <p class="post-body__caption--likes">21,492 likes</p>
+                            <p class="post-body__caption--text"><span class='post-body__caption--text-user'>vincey1853</span> just took a few mushrooms lol</p>
+                        </figcaption>
+                    </figure>
+                </div>
+        </main>
+
+        <footer class="footer">
+            <h1>Footer</h1>
+        </footer>
+    </div>
+
     <script src="js/index.js"></script>
 </body>
+
 </html>
