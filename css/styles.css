@@ -39,7 +39,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 68px 0 0 0;
+    padding: 66px 0 0 0;
 }
 
 /*Set default max-width for all first child of the container class*/
@@ -75,7 +75,6 @@ body {
     width: 100%;
     padding: 1rem;
     background-color: #fff;
-    border: 1px solid red;
 }
 
 .logo,
