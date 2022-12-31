@@ -93,3 +93,49 @@ body {
     height: 34px;
     border-radius: 50%;
 }
+
+/* Main styling */
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+}
+
+.post-header__img {
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post-user__name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.post-user__location {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
