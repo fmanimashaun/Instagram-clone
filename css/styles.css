@@ -1,9 +1,16 @@
 /*import fonts*/
 
-/* Inter Font */
+/* Source Sans Pro Font */
 @font-face {
-    font-family: 'Inter';
-    src: url("../fonts/Inter/Inter-VariableFont_slnt_wght.ttf") format('TrueType');
+    font-family: 'Source Sans Pro';
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format('TrueType');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format('TrueType');
+    font-weight: 700;
 }
 
 /*Universal styling*/
@@ -14,7 +21,7 @@
 }
 
 :root {
-    --primary-ff: 'Inter', sans-serif;
+    --primary-ff: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -30,7 +37,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 25px;
+    padding: 0;
 }
 
 /*Set default max-width for all first child of the container class*/
