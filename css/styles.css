@@ -51,6 +51,7 @@ body {
 .container > main {
     margin: auto;
     width: 100%;
+    max-width: 468px;
 }
 
 /*Remove the margin of the first and last child of the container class*/
@@ -100,6 +101,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
+    padding-block: 25px;
 }
 
 .post {
@@ -107,6 +109,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    border-radius: 16px;
     background-color: #fff;
 }
 
