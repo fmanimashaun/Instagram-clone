@@ -68,7 +68,7 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 To get a local copy up and running follow these simple example steps.
 ### Setup <a name="setup"></a>
 
-- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/unit-converter/)
+- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/Instagram-clone)
 
 ### Prerequisites <a name="prerequisites"></a>
 
@@ -76,7 +76,7 @@ To get a local copy up and running follow these simple example steps.
 - A github account
 ### Install <a name="install"></a>
 
-- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/unit-converter.git` on your git bash terminal (__note: the main branch is the final version__).
+- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/Instagram-clone.git` on your git bash terminal (__note: the main branch is the final version__).
 - In your visual studio, change the branch to the starter_version branch to view the starter version of the project.
 - follow the step-by-step guide on my [blog](https://blog.fmanimashaun.com/unit-converter) to build the project.
 
